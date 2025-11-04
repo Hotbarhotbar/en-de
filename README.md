@@ -4,7 +4,7 @@
 
 ## 1. 目录结构
 
-"""
+'''
 /
 ├── configs/
 │   └── improved_25plus.yaml    # 最终版超参数配置
@@ -18,7 +18,7 @@
 │           ├── train_valid_loss.png # 训练曲线图 [cite: 15]
 │           └── best_model.pt      # 最佳模型
 │ 
-├── run_ablation_improved.sh  # 
+├── run_ablation_improved.sh  #   
 ├── src/
 │   ├── layers.py               # MHA, FFN, PositionalEncoding 等
 │   ├── model_improved.py       # Transformer 完整模型  
@@ -28,7 +28,6 @@
 │   └── ...
 ├── requirements.txt            # 依赖
 └── README.md                   # 本文件
-
-"""
+'''
 数据压缩包在data/raw下 解压到raw下 运行prepare_data.py即可获得处理好的数据
 在目录结构文件下直接运行run.sh可以获得baseline 直接运行run_ablation_improved.sh 可以获得baseline和消融实验的结果
