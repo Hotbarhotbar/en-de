@@ -1,0 +1,5 @@
+exp,bleu,val_loss
+baseline,,4.557633241017659
+no_positional,,5.466442130860829
+no_residual,,7.616315455663772
+reduce_heads,,4.55890991574242

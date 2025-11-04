@@ -1,0 +1,43 @@
+2025-11-03 09:32:51 - root - INFO - Logging started. Log file: results/run_no_residual/20251103_093251/train.log
+2025-11-03 09:32:51 - root - INFO - Save dir: results/run_no_residual/20251103_093251
+2025-11-03 09:32:51 - root - INFO - Ablation: {'no_positional': False, 'no_residual': True, 'relative_pos': False, 'reduce_heads': False}
+2025-11-03 09:32:55 - root - INFO - Model params: 163,665,865
+2025-11-03 09:32:56 - root - INFO - Using WarmupCosineSchedule with 96630 total steps and 4000 warmup steps.
+2025-11-03 09:32:56 - root - INFO - Using Grad Clip Norm: 1.0
+2025-11-03 09:32:56 - root - INFO - Starting training...
+2025-11-03 09:42:29 - root - INFO - [Epoch 01/30] Time=573s, train=8.2725, val=7.6911
+2025-11-03 09:42:31 - root - INFO - ✅ Saved new best model (val_loss=7.6911)
+2025-11-03 09:52:03 - root - INFO - [Epoch 02/30] Time=572s, train=7.8432, val=7.6363
+2025-11-03 09:52:10 - root - INFO - ✅ Saved new best model (val_loss=7.6363)
+2025-11-03 10:01:40 - root - INFO - [Epoch 03/30] Time=570s, train=7.8177, val=7.6163
+2025-11-03 10:01:46 - root - INFO - ✅ Saved new best model (val_loss=7.6163)
+2025-11-03 10:11:17 - root - INFO - [Epoch 04/30] Time=571s, train=7.7069, val=9.5841
+2025-11-03 10:20:47 - root - INFO - [Epoch 05/30] Time=571s, train=7.6214, val=9.8463
+2025-11-03 10:30:18 - root - INFO - [Epoch 06/30] Time=571s, train=7.6029, val=9.7567
+2025-11-03 10:39:47 - root - INFO - [Epoch 07/30] Time=569s, train=7.5819, val=9.8940
+2025-11-03 10:49:17 - root - INFO - [Epoch 08/30] Time=570s, train=7.5695, val=9.5597
+2025-11-03 10:58:49 - root - INFO - [Epoch 09/30] Time=571s, train=7.5607, val=9.6346
+2025-11-03 11:45:18 - root - INFO - [Epoch 10/30] Time=569s, train=7.5497, val=9.6627, BLEU=0.00
+2025-11-03 11:54:48 - root - INFO - [Epoch 11/30] Time=569s, train=7.5366, val=10.1443
+2025-11-03 12:04:19 - root - INFO - [Epoch 12/30] Time=572s, train=7.5249, val=9.8941
+2025-11-03 12:13:49 - root - INFO - [Epoch 13/30] Time=570s, train=7.5193, val=9.6689
+2025-11-03 12:23:18 - root - INFO - [Epoch 14/30] Time=569s, train=7.5136, val=10.2235
+2025-11-03 12:32:49 - root - INFO - [Epoch 15/30] Time=571s, train=7.5095, val=10.1679
+2025-11-03 12:42:20 - root - INFO - [Epoch 16/30] Time=571s, train=7.5058, val=10.0934
+2025-11-03 12:51:52 - root - INFO - [Epoch 17/30] Time=572s, train=7.5012, val=9.9482
+2025-11-03 13:01:21 - root - INFO - [Epoch 18/30] Time=569s, train=7.4961, val=10.1723
+2025-11-03 13:10:49 - root - INFO - [Epoch 19/30] Time=568s, train=7.4905, val=10.0758
+2025-11-03 13:56:58 - root - INFO - [Epoch 20/30] Time=570s, train=7.4868, val=10.4529, BLEU=0.02
+2025-11-03 14:06:27 - root - INFO - [Epoch 21/30] Time=569s, train=7.4821, val=10.1516
+2025-11-03 14:15:56 - root - INFO - [Epoch 22/30] Time=569s, train=7.4779, val=10.1099
+2025-11-03 14:25:26 - root - INFO - [Epoch 23/30] Time=570s, train=7.4750, val=10.2478
+2025-11-03 14:34:59 - root - INFO - [Epoch 24/30] Time=573s, train=7.4715, val=10.1543
+2025-11-03 14:44:33 - root - INFO - [Epoch 25/30] Time=574s, train=7.4683, val=10.2455
+2025-11-03 14:54:05 - root - INFO - [Epoch 26/30] Time=572s, train=7.4660, val=10.1962
+2025-11-03 15:03:36 - root - INFO - [Epoch 27/30] Time=570s, train=7.4648, val=10.2016
+2025-11-03 15:13:08 - root - INFO - [Epoch 28/30] Time=572s, train=7.4636, val=10.2019
+2025-11-03 15:22:39 - root - INFO - [Epoch 29/30] Time=571s, train=7.4624, val=10.2072
+2025-11-03 16:08:47 - root - INFO - [Epoch 30/30] Time=572s, train=7.4621, val=10.2018, BLEU=0.01
+2025-11-03 16:08:47 - root - INFO - Training complete. Loading best model for final evaluation...
+2025-11-03 16:08:48 - root - INFO - Loaded best model from epoch 3 (val_loss=7.6163)
+2025-11-03 16:15:44 - root - INFO - Final BLEU (from best model) = 0.00

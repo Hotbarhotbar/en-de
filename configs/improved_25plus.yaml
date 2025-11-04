@@ -1,0 +1,33 @@
+seed: 42
+device: auto
+data:
+  path: "data/en-de"
+  src_lang: "en"
+  trg_lang: "de"
+  max_len: 100
+model:
+  d_model: 512
+  n_heads: 8
+  d_ff: 2048
+  num_layers: 6
+  dropout: 0.2  # 恢复到 0.2
+training:
+  epochs: 30
+  batch_size: 64
+  lr: 8e-5      # 8e-5
+  weight_decay: 0.01 # 恢复到 0.01
+  clip_grad_norm: 1.0
+  scheduler: "warmup_cosine"
+  warmup_steps: 4000 
+  adam_beta1: 0.9
+  adam_beta2: 0.98
+  adam_eps: 1e-9
+  label_smoothing: 0.1
+misc:
+  save_dir: "../results/improved_25plus"
+  vocab_min_freq: 2
+ablation:
+  no_positional: false
+  no_residual: false
+  relative_pos: false
+  reduce_heads: false
